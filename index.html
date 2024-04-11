@@ -3,11 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PhoneGuardian</title>
+    <title>Phone Guardian - Verify Phone Numbers</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <script src="js/index.js"></script>
     
+    <header>
+        <h1>Phone Guardian</h1>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h2>Welcome to Phone Guardian</h2>
+            <p>Phone Guardian is a comprehensive phone validation service designed to verify phone numbers accurately.</p>
+            </section>
+
+        <section id="validate">
+            <h2>Validate Phone Number</h2>
+            <form id="validationForm">
+                <label for="phoneNumber">Enter Phone Number:</label>
+                <input type="text" id="phoneNumber" name="phoneNumber" required>
+                <button type="submit">Validate</button>
+            </form>
+            <div id="validationResult">
+                <!-- Validation result will be displayed here -->
+            </div>
+        </section>
+
+        <section id="documentation">
+            <h2>How to Use Phone Guardian</h2>
+            <p>Phone Guardian is a simple tool for validating phone numbers. Follow these steps to use the app:</p>
+            <ul>
+                <li>Enter the phone number you want to validate in the input field provided(e.g +25412345678)
+                    <li>Click on the "Validate" button.</li>
+                <li>Wait for the validation result to appear below the input field.</li>
+                <li>The validation result will indicate whether the phone number is valid or not.</li>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Phone Guardian. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
