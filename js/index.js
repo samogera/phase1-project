@@ -27,11 +27,16 @@ window.onload = function() {
             console.error('Error fetching cat fact:', error);
         });
 
-    // Fetch random cat image from Cat API and set it on page load
-    const catImage = document.getElementById('catImage');
+    // Draw random cat image from Cat API onto canvas
+    const catCanvas = document.getElementById('catCanvas');
+    const ctx = catCanvas.getContext('2d');
     fetch('https://api.thecatapi.com/v1/images/search')
         .then(response => response.json())
         .then(data => {
+            const catImage = new Image();
+            catImage.onload = function() {
+                ctx.drawImage(catImage, 0, 0, catCanvas.width, catCanvas.height);
+            };
             catImage.src = data[0].url;
         })
         .catch(error => {

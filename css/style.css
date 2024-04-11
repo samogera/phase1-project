@@ -62,3 +62,17 @@
       font-size: 1.5rem;
     }
   }
+  .gallery-title {
+    text-align: center;
+    position: center;
+    top: 60px; /* Adjust top position as needed */
+    width: 100%;
+  }
+  
+  canvas#catCanvas {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  
