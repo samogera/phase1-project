@@ -2,16 +2,16 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-image: url('https://i.pinimg.com/originals/2a/a7/8a/2aa78a2c8fbe91b37bfed0fbb32fae82.jpg'); /* Background image URL */
-    background-size: cover; /* Ensures the background image covers the entire body */
-    color: #fff; /* Sets text color to white */
+    background-image: url('https://images.unsplash.com/photo-1545486332-9e0999c535b2?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D'); /* Background image URL */
+    background-size: cover;
+    color: #fff; /* Original text color */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
 header {
-    background-color: #1d127c; /* Black background */
+    background-color: #1d127c;
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -27,20 +27,17 @@ section {
 }
 
 footer {
-    background-color: #0c1a57; /* Black background */
+    background-color: #0c1a57; 
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
 #home {
     text-align: center;
 }
 
-h1, h2 {
+h1{
     margin-bottom: 20px;
 }
 
@@ -58,10 +55,10 @@ label {
 }
 
 input[type="text"] {
-    width: 80%; /* Adjusted width */
-    padding: 8px; /* Adjusted padding */
+    width: 80%; 
+    padding: 8px; 
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 20px;
     font-size: 16px;
 }
 
@@ -70,7 +67,7 @@ button {
     background-color: #3e64ff;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
 }
@@ -90,5 +87,64 @@ ul li {
 }
 
 #validationResult {
-    margin-top: 20px; /* Add margin to create space */
+    margin-top: 20px; 
+}
+
+.coming-soon {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.coming-soon h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.coming-soon p {
+    font-size: 16px;
+    color: #666;
+}
+
+.coming-soon h3 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.coming-soon form {
+    margin-top: 10px;
+}
+
+.coming-soon label {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.coming-soon input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.coming-soon button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.coming-soon button:hover {
+    background-color: #0056b3;
 }
