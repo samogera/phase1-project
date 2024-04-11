@@ -1,11 +1,10 @@
-# (Phone Guardian)
+# (Cat Love)
 
 #### Date, 2024/04/11
 
 #### By *Samuel Ogera*
 
 ## Description
-Phone Guardian is a comprehensive phone validation website designed to address the challenges of verifying phone numbers accurately on a global scale. This project aims to provide a solution for users who face difficulties in authenticating phone numbers, leading to inefficiencies, wasted resources, and potential security risks.
 
 ## Installation
 You use git clone to be able to download the documents in the GitHub
@@ -15,7 +14,7 @@ Git
 
 ### Installation instruction
 ```
-Git clone https://github.com/samogera/phase1-project-phoneguardian
+Git clone https://github.com/samogera/phase1-project
 
 ```
 
