@@ -21,7 +21,7 @@ Git clone https://github.com/samogera/phase1-project
 ```
 
 # Live Link
-[Git](gh-pages link)
+[Git](https://samogera.github.io/phase1-project/)
 
 ## Technologies used
 HTML
