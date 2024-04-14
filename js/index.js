@@ -27,19 +27,26 @@ window.onload = function() {
             console.error('Error fetching cat fact:', error);
         });
 
-    // Draw random cat image from Cat API onto canvas
-    const catCanvas = document.getElementById('catCanvas');
-    const ctx = catCanvas.getContext('2d');
-    fetch('https://api.thecatapi.com/v1/images/search')
-        .then(response => response.json())
+    // Load cat images from db.json
+    fetch('db.json')
+        .then(response => {
+            console.log('Response:', response);
+            return response.json();
+        })
         .then(data => {
+            console.log('Data:', data);
+            const catImages = data.cats;
+            const randomIndex = Math.floor(Math.random() * catImages.length);
+            const randomCatImageUrl = catImages[randomIndex].url;
+            const catCanvas = document.getElementById('catCanvas');
+            const ctx = catCanvas.getContext('2d');
             const catImage = new Image();
             catImage.onload = function() {
                 ctx.drawImage(catImage, 0, 0, catCanvas.width, catCanvas.height);
             };
-            catImage.src = data[0].url;
+            catImage.src = randomCatImageUrl;
         })
         .catch(error => {
-            console.error('Error fetching cat image:', error);
+            console.error('Error fetching cat images:', error);
         });
 };
