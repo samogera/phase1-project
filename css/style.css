@@ -11,12 +11,12 @@
   body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #817878;
+    background-color: #6e6868;
   }
   
   /* Header styles */
   header {
-    background-color: #080808;
+    background-color: #130101;
     color: #fff;
     padding: 1rem;
     text-align: center;
@@ -50,7 +50,7 @@
   
   /* Footer styles */
   footer {
-    background-color: #333;
+    background-color: #0c0b0b;
     color: #fff;
     padding: 1rem;
     text-align: center;
@@ -77,7 +77,7 @@
   
   /* Header styles */
 header {
-  background-color: #333;
+  background-color: #140909;
   color: #fff;
   padding: 1rem;
   text-align: left; 
