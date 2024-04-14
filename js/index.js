@@ -40,7 +40,7 @@ function fetchCatFact() {
 }
 
 function fetchCatImages() {
-    fetch('db.json')
+    fetch('https://json-server-8njc.onrender.com/cats')
         .then(response => response.json())
         .then(data => {
             const catImages = data.cats;
