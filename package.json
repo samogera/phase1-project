@@ -1,0 +1,23 @@
+{
+  "name": "phase1-project",
+  "version": "1.0.0",
+  "description": "#### Date, 2024/04/11",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samogera/phase1-project-phoneguardian.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samogera/phase1-project-phoneguardian/issues"
+  },
+  "homepage": "https://github.com/samogera/phase1-project-phoneguardian#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
