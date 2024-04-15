@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 import fs from 'fs/promises';
 
 const apiUrl = 'https://api.thecatapi.com/v1/images/search';
-const numberOfCats = 10; // Change this number to generate more or fewer cat images
+const numberOfCats = 100; // Change this number to generate more or fewer cat images
 
 async function fetchCatImages() {
   try {
