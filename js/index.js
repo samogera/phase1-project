@@ -40,7 +40,7 @@ function fetchCatFact() {
 }
 
 function fetchCatImages() {
-    fetch('https://json-server-8njc.onrender.com/cats')
+    fetch('db.json') // Assuming db.json is in the same directory as your HTML file
         .then(response => response.json())
         .then(data => {
             const catImages = data.cats;
